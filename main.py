@@ -12,7 +12,6 @@ def bmi_calculation(feet, inches, weight):
 
 def bmr_calculation(feet, inches, weight, age, sex):
     #calculates bmr based on sex to later be passed onto the users activity level
-    global bmr
     height = (feet * 30.48) + (inches * 2.54) #converts from inches to cm
     if sex == 'Male':
         bmr = (10 * (weight/2.205)) + (6.25 * height) - (5 * age) + 5
