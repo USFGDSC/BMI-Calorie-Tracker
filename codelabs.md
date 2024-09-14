@@ -188,11 +188,11 @@ Here, we're also linking an external CSS file (`main.css`) for styling.
 Save your script and run the app with:
 
 ```bash
-python app.py
-```
+Run Python File
 
 Open your browser and navigate to `http://localhost:5001` to interact with your BMI and Calories Calculator.
 
 ---
 
 With this setup, you now have a fully functional BMI and calories calculator app built using **Taipy**!
+```
